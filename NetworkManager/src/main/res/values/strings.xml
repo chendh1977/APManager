@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">APManager</string>
+    <string name="wifi_list">Wifi 列表</string>
+    <string name="ap_list">AP 列表</string>
+    <string name="client_list">Client 列表</string>
+    <string name="back">后退</string>
+</resources>

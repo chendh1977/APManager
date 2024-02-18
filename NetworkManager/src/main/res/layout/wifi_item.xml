@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@color/white"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/wifi" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1.7">
+        <TextView
+            android:id="@+id/ssid"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="AAAA"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/bssid"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="AA:AA:AA:AA"
+            android:gravity="center"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:layout_weight="1.3">
+        <TextView
+            android:id="@+id/rssi_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-50dBm"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="1.7"
+        android:gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/band"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2.4G"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/band_width"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="40Mhz"
+                android:textSize="18dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/channel_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CH.11"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="1.1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/frequency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="9000HZ"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>
